@@ -1,0 +1,100 @@
+body {
+	background: white;
+	font-family: Bookman Old Style;
+}
+
+a {
+	text-decoration: none
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+li {
+	padding: 7px;
+}
+
+.column h2 {
+	padding-left: 7px;
+}
+
+.title {
+	font-family: Bookman Old Style;
+	text-align: center;
+}
+
+.desc {
+	font-family: Bookman Old Style;
+	margin-left: 50%;
+}
+
+.searchTerm {
+	width: 350px;
+	border: 2px solid black;
+	padding: 5px;
+	height: 20px;
+	border-radius: 10px;
+	outline: none;
+	font-family: Bookman Old Style;
+	font-size: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column {
+	background-color: #ddd;
+	border-top-style: solid;
+}
+
+.pages {
+	text-align: center;
+}
+
+.pages a {
+	margin: 15px;
+}
+
+.searchTerm:focus {
+	box-shadow: 3px 3px 10px grey;
+}
+
+.wrap {
+	width: 100%;
+}
+
+
+/* Create four equal columns that floats next to each other */
+
+.column {
+	float: left;
+	width: 23%;
+	margin: 3px;
+}
+
+.row {
+	margin: 2%;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.navigate_button {
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	background-color: black
+}
