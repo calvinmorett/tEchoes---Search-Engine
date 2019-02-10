@@ -1,1 +1,1 @@
-OPEN XAMPP, START APACHE
+Mostly front-end changes to styling
