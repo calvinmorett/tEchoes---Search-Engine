@@ -7,7 +7,7 @@ that Simple that Powerful
 ## Inspiration
 The Web Is *Mostly* Full of Garbage. We all note that daily. But how can we look at it's bright side?<br/>The answer is pretty simple. **tEchoes**
 ## What it does
-**tEchoes** is a search engine with restricted websites list. The listfor nowis the following:
+**tEchoes** is a search engine with restricted websites list. The list–for now–is the following:
 - https://en.wikipedia.org/
 - https://www.wikihow.com
 - https://www.encyclopedia.com/
