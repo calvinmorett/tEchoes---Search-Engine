@@ -4,8 +4,10 @@ that Simple that Powerful
 ## Example
 ![Example](_images/example.png)
 
-## Inspiration
-The Web Is *Mostly* Full of Garbage. We all note that daily. But how can we look at it's bright side?<br/>The answer is pretty simple. 
+## Inspiration 
+The Web Is *Mostly* Full of Garbage. We all note that daily. But how can we look at it's bright side?
+The answer is pretty simple.
+
 --
 ## Tagline
 *Alternate:* Echo your search across multiple websites from one location. 
