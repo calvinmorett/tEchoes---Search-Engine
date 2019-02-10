@@ -15,26 +15,63 @@
          <div class="desc">
             <h4>that Simple that Powerful</h4>
          </div>
+          <div class="searchSection">
          <input type="text" id="search_text" class="searchTerm" placeholder="What are you looking for?">
-         <div class="row">
+         </div>
+        <div class="row">
             <div class="column" id="column0">
-               <h2>Wikipedia</h2>
+               <h2 class="unselectable">Wikipedia</h2>
                <ul style="list-style:none;" id="results0"></ul>
             </div>
             <div class="column" id="column1">
-               <h2>wikiHow</h2>
+               <h2 class="unselectable">wikiHow</h2>
                <ul style="list-style:none;" id="results1"></ul>
             </div>
             <div class="column" id="column2">
-               <h2>Encyclopedia</h2>
+               <h2 class="unselectable">Encyclopedia</h2>
                <ul style="list-style:none;" id="results2"></ul>
             </div>
             <div class="column" id="column3">
-               <h2>Yahoo Answers</h2>
-               <ul style="list-style:none;" id="results3"></ul>
+               <h2 class="unselectable">Yahoo Answers</h2>
+               <ul style="list-style:none;" id="results3">
+                   
+                   <a href="#">Test Yahoo Result</a><BR>
+                   <a href="#">Test Yahoo Result</a><BR>
+                   <a href="#">Test Yahoo Result</a><BR>
+                   <a href="#">Test Yahoo Result</a><BR>
+                   <a href="#">Test Yahoo Result</a><BR>
+                   <a href="#">Test Yahoo Result</a><BR>
+                   <a href="#">Test Yahoo Result</a><BR>
+                   
+                   </ul>
             </div>
          </div>
          <div class="pages" id="pages"></div>
       </div>
+       
+               
+        <script type="text/javascript">
+            $('#column0').on('click', function() {
+                $(".column").fadeToggle(0),
+                $('#column0').fadeIn(0),
+                $(this).toggleClass('singleEcho singleEcho0');
+            });
+            $('#column1').on('click', function() {
+                $(".column").fadeToggle(0),
+                $('#column1').fadeIn(0),
+                $(this).toggleClass('singleEcho singleEcho1');
+            });
+            $('#column2').on('click', function() {
+                $(".column").fadeToggle(0),
+                $('#column2').fadeIn(0),
+                $(this).toggleClass('singleEcho singleEcho2');
+            });
+            $('#column3').on('click', function() {
+                $(".column").fadeToggle(0),
+                $('#column3').fadeIn(0),
+                $(this).toggleClass('singleEcho singleEcho3');
+            });
+            
+       </script>
    </body>
 </html>
