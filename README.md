@@ -5,10 +5,9 @@ that Simple that Powerful
 ![Example](_images/example.png)
 
 ## Inspiration 
-The Web Is *Mostly* Full of Garbage. We all note that daily. But how can we look at it's bright side?
+The Web Is *Mostly* Full of Garbage. We all note that daily. But how can we look at it's bright side? <BR>
 The answer is pretty simple.
 
---
 ## Tagline
 *Alternate:* Echo your search across multiple websites from one location. 
 
